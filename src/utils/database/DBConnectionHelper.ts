@@ -9,11 +9,11 @@ export default class DBConnectionHelper {
   async connect(): Promise<DataSource> {
     
     const connectionSource= {
-      host: "",
+      host: "174.136.53.220",
       port: 3306,
-      username: "",
-      password: "",
-      database: "",
+      username: "tierran2",
+      password: "nZ65.ux9HlW;B9",
+      database: "tierran2_pedidos",
   };
 
     const dataSourceOptions: MysqlConnectionOptions = {
